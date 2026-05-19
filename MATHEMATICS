@@ -1,0 +1,27 @@
+<!-- KCSE 2000 BUTTON -->
+<button class="year-btn" onclick="toggle('y2000')">
+KCSE 2000
+</button>
+
+<!-- KCSE 2000 CONTENT -->
+<div id="y2000" class="paper-box">
+
+<!-- PAPER 1 -->
+<a href="pdfs/maths/math-paper1-2000.pdf"
+class="paper-link"
+target="_blank">
+
+📘 MATHEMATICS PAPER 1 (2000)
+
+</a>
+
+<!-- PAPER 2 -->
+<a href="pdfs/maths/math-paper2-2000.pdf"
+class="paper-link"
+target="_blank">
+
+📗 MATHEMATICS PAPER 2 (2000)
+
+</a>
+
+</div>
