@@ -7,7 +7,22 @@
 <title>Mathematics KCSE</title>
 
 <style>
+<h1>MATHEMATICS KCSE PAST PAPERS</h1>
 
+<button onclick="toggle('y2000')">
+KCSE 2000
+</button>
+
+<div id="y2000" style="display:none;">
+
+<a href="pdfs/maths/math-paper1-2000.pdf"
+target="_blank">
+
+📘 Paper 1 (2000)
+
+</a>
+
+</div>
 body{
     margin:0;
     font-family:Arial;
@@ -90,6 +105,20 @@ function toggle(id){
 }
 
 </script>
+    <script>
+
+function toggle(id){
+    let box = document.getElementById(id);
+
+    if(box.style.display === "block"){
+        box.style.display = "none";
+    } else {
+        box.style.display = "block";
+    }
+}
+
+    </script>
 
 </body>
 </html>
+
