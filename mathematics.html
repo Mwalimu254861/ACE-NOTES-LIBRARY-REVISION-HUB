@@ -74,59 +74,29 @@ body{
 <div class="header">
 MATHEMATICS KCSE PAST PAPERS
 </div>
-<button onclick="toggle('y2000')">  
+<button class="year-btn" onclick="toggle('y2000')">  
   KCSE 2000  
 </button>  
 
 <div id="y2000" class="paper-box">  
-  <a href="KCSE-2000-MATHEMATICS-QUESTIONS.pdf" target="_blank">  
+  <a href="KCSE-2000-MATHEMATICS-QUESTIONS.pdf" target="_blank" class="paper-btn">  
     Paper 1  
   </a>  
-</div>
-    
-<!-- KCSE 2000 -->
-<button class="year-btn" onclick="toggle('y2000')">
-KCSE 2000
-</button>
-
-<div id="y2000" class="paper-box">
-<a href="pdfs/maths/math-paper1-2000.pdf" class="paper-link" target="_blank">
-Paper 1
-</a>
-
-<a href="pdfs/maths/math-paper2-2000.pdf" class="paper-link" target="_blank">
-Paper 2
-</a>
-
+  <a href="#" class="paper-btn">  
+    Paper 2  
+  </a>  
 </div>
 
-<script>
+<script>  
+function toggle(id) {  
+  let box = document.getElementById(id);  
+  if (box.style.display === "block") {  
+    box.style.display = "none";  
+  } else {  
+    box.style.display = "block";  
+  }  
+}  
+</script>  
 
-function toggle(id){
-    let box = document.getElementById(id);
-
-    if(box.style.display === "block"){
-        box.style.display = "none";
-    } else {
-        box.style.display = "block";
-    }
-}
-
-</script>
-    <script>
-
-function toggle(id){
-    let box = document.getElementById(id);
-
-    if(box.style.display === "block"){
-        box.style.display = "none";
-    } else {
-        box.style.display = "block";
-    }
-}
-
-    </script>
-
-</body>
+</body>  
 </html>
-
